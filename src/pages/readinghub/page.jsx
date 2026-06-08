@@ -1,5 +1,5 @@
-import NavbarDash from "../../components/page/dashboard/NavbarDash";
-import HeroSectionDash from "../../components/page/dashboard/HeroSectionDash";
+import NavbarDash from "../../components/page/readinghub/NavbarDash";
+import HeroSectionDash from "../../components/page/readinghub/HeroSectionDash";
 
 function DashPage() {
     return (

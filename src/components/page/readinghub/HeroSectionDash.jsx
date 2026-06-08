@@ -1,6 +1,6 @@
 function HeroSectionDash() {
     return (
-        <div className="grid grid-cols-2 gap-2 p-4 w-full h-[1200px] bg-gradient-to-br from-[#f6f5ef] to-[#f2efe8] rounded-lg">
+        <div className="border-2 grid grid-cols-2f p-4 w-full h-[1200px] bg-gradient-to-br from-[#f6f5ef] to-[#f2efe8] rounded-lg">
             <div className="flex flex-col items-start gap-1 border-[#456462] w-[70%] h-[50%] rounded-lg ml-30 mt-12 px-6 py-2">
                 <div className="w-full flex items-center justify-start px-3 py-1">
                     <span className="tracking-wider text-xs be-vietnam-pro-semibold text-[#7a473d] bg-[#fee0dcbc] rounded-full pl-4 pr-5 py-2 mb-1">
@@ -60,8 +60,10 @@ function HeroSectionDash() {
                 </div>
             </div>
 
-            <div className="col-span-2 bg-orange-200 p-6 rounded-md shadow">
-                Bawah Full Lebar
+            <div className="col-span-2 border-2 p-6 rounded-md flex flex-col items-center justify-center">
+                <span className="text-4xl eb-garamond-400 text-black">MoodFinder</span>
+                <span className="text-lg be-vietnam-pro-medium text-zinc-500 mx-125">Select your current state of mind or desired atmosphere, and let the archive suggest your next journey.</span>
+
             </div>
         </div>
     )

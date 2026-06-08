@@ -1,5 +1,5 @@
 import {createBrowserRouter} from "react-router-dom";
-import DashPage from "../pages/dashboard/page";
+import DashPage from "../pages/readinghub/page";
 
 const router = createBrowserRouter([
     {
